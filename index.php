@@ -1,4 +1,8 @@
-<?php include 'header.php' ?>
+<?php
+$page_title = "Visa Academy | Home";
+$page_desc = "Best visa training and immigration courses in India.";
+include 'header.php';
+?>
 <div class="hero hero-bg-image hero-slider-layout">
    <div class="swiper">
       <div class="swiper-wrapper">
