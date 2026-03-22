@@ -1,63 +1,37 @@
 <footer>
-    <!-- Keep your existing footer HTML here exactly as it was -->
+    <!-- Keep your existing footer content -->
 </footer>
 
-<button id="scrollTopBtn" aria-label="Scroll to top" title="Go to top">↑</button>
+<button id="topBtn">↑</button>
 
 <style>
-#scrollTopBtn{
-    position:fixed;
-    right:20px;
-    bottom:20px;
-    width:44px;
-    height:44px;
-    border:none;
-    border-radius:50%;
-    background:#111;
-    color:#fff;
-    font-size:20px;
-    line-height:44px;
-    text-align:center;
-    cursor:pointer;
-    z-index:9999;
-    display:none;
-    box-shadow:0 4px 12px rgba(0,0,0,0.2);
-}
-#scrollTopBtn:hover{
-    opacity:.9;
+#topBtn {
+  display:none;
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  z-index:999;
+  background:#000;
+  color:#fff;
+  border:none;
+  padding:12px;
+  border-radius:50%;
+  cursor:pointer;
 }
 </style>
 
 <script>
-(function () {
-    const btn = document.getElementById('scrollTopBtn');
-    if (!btn) return;
-
-    window.addEventListener('scroll', function () {
-        if (window.scrollY > 250) {
-            btn.style.display = 'block';
-        } else {
-            btn.style.display = 'none';
-        }
-    });
-
-    btn.addEventListener('click', function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-})();
+let topBtn=document.getElementById("topBtn");
+window.onscroll=function(){
+  if(document.documentElement.scrollTop>200){
+    topBtn.style.display="block";
+  } else {
+    topBtn.style.display="none";
+  }
+};
+topBtn.onclick=function(){
+  window.scrollTo({top:0,behavior:"smooth"});
+};
 </script>
-
-<script src="jquery-3.7.1.min.js"></script>
-<script src="bootstrap.min.js"></script>
-<script src="jquery.slicknav.js"></script>
-<script src="jquery.magnific-popup.min.js"></script>
-<script src="jquery.counterup.min.js"></script>
-<script src="jquery.waypoints.min.js"></script>
-<script src="parallaxie.js"></script>
-<script src="gsap.min.js"></script>
-<script src="ScrollTrigger.min.js"></script>
-<script src="SplitText.js"></script>
-<script src="SmoothScroll.js"></script>
-<script src="function.js"></script>
 </body>
 </html>
