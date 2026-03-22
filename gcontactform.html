@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TG4T8LQX');</script>
+<!-- End Google Tag Manager -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Visa Academy - Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E2725B; /* Terracotta */
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+        header, footer {
+            text-align: center;
+            background-color: #D65A4E;
+            padding: 10px;
+        }
+        header img, footer img {
+            max-width: 100%;
+            height: auto;
+        }
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: #fff;
+            color: #333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 20px auto;
+            max-width: 120px;
+        }
+        h2 {
+            text-align: center;
+            color: #D65A4E;
+        }
+        form label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        form button {
+            background-color: #D65A4E;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        form button:hover {
+            background-color: #b94b3d;
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TG4T8LQX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+    <img src="images/H1.png" alt="Header">
+</header>
+
+<div class="container">
+    <img src="images/T-4.png" alt="The Visa Academy Logo" class="logo">
+    <h2>Contact Us</h2>
+    <form action="send_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" name="mobile" id="mobile" required pattern="[0-9]{10}" title="Enter a valid 10-digit number">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="job_title">Job Title:</label>
+        <input type="text" name="job_title" id="job_title" required>
+
+        <label for="location">Current Location:</label>
+        <input type="text" name="location" id="location" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>
+    <img src="images/H2.png" alt="Footer">
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .navbar {
+        padding: 0px 0;
+    }
+    .navbar-brand img {
+        height: 50px;
+    }
+        .section-title h2 {
+         font-size: 22px;
+        text-align: center;
+    }
+    .about-us-content .section-title p {
+       text-align: justify;
+       font-size: 15px;
+    }
+    .intro-bg-video {
+        min-height: 210px;
+        
+    }
+    .section-title p {
+        margin-top: 10px;
+        text-align: center;        
+        font-size: 15px;
+        
+    }
+    .why-choose-item-content {
+        width: 100%;
+    }
+    .why-choose-item-content h3 {
+        text-align: center;
+    }
+    .why-choose-item-content p {
+       text-align: center;
+    }
+    .section-title h1 {
+        font-size: 22px;
+        margin-left: 14px;
+    }
+    .footer-links ul li {
+        padding-left: 0px;
+    }
+    .hero.hero-bg-image.hero-slider-layout .hero-slide {
+        padding: 19px 0;
+    }
+    .hero-content .section-title p {
+        color: #fff;
+        font-size: 15px;
+   }
+     .about-us-list ul li {
+        padding-left: 25px;
+        font-size: 14px;
+    }
+    .section-title-content p {
+       font-size: 15px;
+    }
+    .btn-default {
+        font-size: 14px;
+        margin-left: 56px;
+   }
+   .video-text-box h2 {
+      font-size: 25px;
+   }
+   .our-services {
+        position: relative;
+        padding: 18px 0;
+        background: #fbe6d3;
+    }
+    .page-header {
+        padding: 10px 0;
+    }
+    .about-us {
+        padding: 17px 0;
+    }
+    .section-row .section-title {
+        margin-bottom: 5px;
+        margin-top: 24px;
+    }
+    .features-content p {
+        font-size: 15px;
+    }
+    .features-item .icon-box {
+        margin-left: 118px;
+    }
+    .our-features {
+        padding: 39px 0;
+    }
+    .page-blog .post-item-content li {
+        font-size: 15px;
+    }
+    .page-blog .post-item-content p {
+        font-size: 15px;
+    }
+    .page-blog .post-item-body {
+        padding-bottom: 25px;
+    }
+    .page-blog {
+        padding: 31px 0px 0px;
+    }
+    .top-img-text {
+        top: 0%;
+        font-size: 15px;
+    }
+    .top-img-text h3 {
+        font-size: 16px;
+    }
+    .service-entry ul li {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .features-content.add-some h3 {
+        font-size: 17px;
+    }
+     .our-features li {
+        font-size: 15px;
+    }
+    .page-service-single {
+        padding: 38px 0 0;
+    }
+    .our-features {
+        padding: 19px 0 0;
+    }
+    .our-services.Nanny-Filing-Training .icon-box {
+        margin-left: 100px;
+    }
+    .info-card {
+        margin-bottom: 26px;
+    }
+    h2.visa {
+    margin-top: 2px;
+    margin-bottom: 31px;
+    font-size: 19px;
+}
+}
