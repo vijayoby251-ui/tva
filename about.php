@@ -1,3 +1,8 @@
+<?php
+$page_title = "Visa Academy | Home";
+$page_desc = "Best visa training and immigration courses in India.";
+include 'header.php';
+?>
 <?php include 'header.php'; ?>
 <div class="brid-banner">
    <img src="images/Aboutus.png" alt="img">
