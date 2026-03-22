@@ -674,7 +674,7 @@ include 'header.php';
                </div>
                <!-- CTA Box Title End -->
                <!-- CTA Form Start -->
-               <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.25s">
+               <form id="contactForm" action="form-process.php" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.25s">
                   <div class="row">
                      <div class="form-group col-md-12 mb-4">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
